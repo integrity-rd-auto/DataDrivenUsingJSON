@@ -5,8 +5,9 @@
     <classes>
       <class name="com.JSON.data.Test001">
         <methods>
-          <include name="registration" invocation-numbers="1"/>
+          <include name="registration"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.JSON.data.Test001 -->
     </classes>
