@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50497" started-at="2020-03-13T15:24:11 IST" finished-at="2020-03-13T15:25:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50497" started-at="2020-03-13T15:24:11 IST" finished-at="2020-03-13T15:25:02 IST">
+      <class name="com.JSON.data.Test001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.JSON.data.Test001@e320068]" name="setup" is-config="true" duration-ms="7905" started-at="2020-03-13T15:24:11 IST" finished-at="2020-03-13T15:24:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registration(java.lang.String)[pri:0, instance:com.JSON.data.Test001@e320068]" name="registration" duration-ms="27483" started-at="2020-03-13T15:24:19 IST" data-provider="readJson" finished-at="2020-03-13T15:24:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aditya Kumar,Roy,7589698874,aditya@test.com,337 pentagan street,Amstalveen,North Holland,11801189,NETHERLANDS,Aditya@74,Test12345,Test12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="registration(java.lang.String)[pri:0, instance:com.JSON.data.Test001@e320068]" name="registration" duration-ms="13910" started-at="2020-03-13T15:24:47 IST" data-provider="readJson" finished-at="2020-03-13T15:25:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Preety,Kakkar,2225556669,preety@test.com,22 Avenue circular road,Hilversum,North Holland,12001233,NETHERLANDS,Preety@69,Test@4123,Test@4123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JSON.data.Test001@e320068]" name="tearDown" is-config="true" duration-ms="1152" started-at="2020-03-13T15:25:01 IST" finished-at="2020-03-13T15:25:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JSON.data.Test001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
